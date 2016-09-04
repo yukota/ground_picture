@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="ground_picture">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>100 100</size>
+          </plane>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>100 100</size>
+          </plane>
+        </geometry>
+        <plugin name="ground_picture" filename="libground_picture.so">
+          <apikey></apikey>
+          <longitude>35.656025</longitude>
+          <latitude>139.7971489</latitude>
+          <pixels_per_meter>2</pixels_per_meter>
+        </plugin>
+      </visual>
+    </link>
+  </model>
+</sdf>
+
