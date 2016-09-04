@@ -2,6 +2,8 @@
 Google static mapから取得した画像をGround plane
 上に描写するgazeboプラグインです。
 
+![Demo](https://github.com/yukota/ground_picture/wiki/images/demo.jpg)
+
 ## Requirement
 - gazebo 7.3.1+
 - OpenCV 2.4+
