@@ -73,5 +73,5 @@ make
 ~~~sh
 # path/to/clonedの部分をソースをcloneした場所に合わせて書き換えてください。
 export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/path/to/cloned/gazebo_plugin_tutorial/build
-export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/path/to/cloned/learn/gazebo_plugin_tutorial/models
+export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/path/to/cloned/gazebo_plugin_tutorial/models
 ~~~
